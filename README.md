@@ -1,14 +1,13 @@
-# Web_frontend_project
 # Sweet Delights Bakery  
 
 ## Project Aim:
-    Developing a simple website for a small bakery. The user-friendly in
+Developing a simple website for a small bakery. The user-friendly in
     
 ## Features  
-    - Main Page: Bakery information  
-    - Our Products: List of baked goods  
-    - Order Page: Online order form  
-    - Customer Reviews: User feedback  
+- Main Page: Bakery information  
+- Our Products: List of baked goods  
+- Order Page: Online order form  
+- Customer Reviews: User feedback  
 
 ## Technologies Used  
 - HTML  
