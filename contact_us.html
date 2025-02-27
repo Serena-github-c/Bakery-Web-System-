@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Order</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <div class="header-content">
+            <h1>🍰Sweet Delights Bakery</h1>
+        </div>
+    </header>
+
+<form id="order-form" method="post" action="submit_order.html">
+  <p align="center"> Welcome to our order page. You can place your order here. We will get back to you in less than 24 hours. Thank you!</p><br>
+
+  <fieldset>
+    <div class="sub-group">
+      <label class="left" id="name-label" for="name">Name:</label>
+    <input type="text" name="customer-name" class="right" id="name" placeholder="Enter your name" required>
+    </div>
+
+    <div class="sub-group">
+      <label class="left" id="email-label" for="email">Email:</label>
+    <input type="email" name="Email-address" class="right" placeholder="Enter your email" id="email" required>
+    </div>
+
+    <div class="sub-group">
+      <label  class="left" id="number-label" for="number">Phone number:</label>
+    <input type="text" name="Age" placeholder="Phone number" class="right" id="number" required>
+  </div>
+
+    <div class="sub-group">
+      <label class="left" id="place-label" for="place" >Place of residence:</label>
+
+    <input type="text" placeholder="Place of residence" class="right" id="place" required>
+  </div>
+  </fieldset>
+
+
+  <fieldset >
+        <div class="field-row">
+        <label class="left" for="dropdown">Please select the item you want</label>
+        <select class="right" id="dropdown" name="dropdown">
+          <option selected disabled required>Select an option</option>
+          <option value="cake">Cake</option>
+          <option value="eclairs">Eclairs</option>
+          <option value="cookies">Cookies</option>
+          <option value="eclairs">Eclairs</option>
+        </select>
+        </div>
+      
+        
+<div class="field-row">
+<label class="left">If you chose a cake, please enter the number of servings you'd like</label>
+  <input type="number"  class="right" min="4" max="120" width="100">
+</div>
+
+  <div class="field-row">
+  <label class="left">If you chose other, please enter the number of pieces you'd like</label>
+  <select class="right" id="dropdown" name="dropdown">
+    <option selected disabled>Select an option</option>
+    <option value="6">6</option>
+    <option value="12">12</option>
+    <option value="18">18</option>
+    <option value="24">24</option>
+    <option value="30">30</option>
+    <option value="36">36</option>
+  </select>
+</div>
+</fieldset>
+
+
+
+
+ <fieldset>
+  <div class="thanks">
+  <h3>🧁Please describe your order in detail</h3>
+
+   <p> Do you have any preferences regarding flavor, color, or ingredients?</p>
+   <p>Any comments or suggestions?</p>
+   <p>Please state your response below:</p>
+
+    <div class="commentbox">
+   <textarea required rows="10" cols="100"  placeholder="Enter your answer here..."></textarea>
+
+   <br></br>
+   <label class="left" id="left-radio">Please select a date and time to pickup your order:</label>
+   <input type="date" required>
+   <input type="time" min="8" max="12">
+
+   <br>
+  <button class="heading-button" type="submit" >Submit order</button>
+    </div>
+
+    </fieldset>
+    <div class="thanks2">
+    <p>We will contact you to confirm your order and your pickup date.</p>
+    <p> Thank you for choosing Sweet Delights!</p>
+    🎂
+  </div>
+</div>
+</form>
+
+
+<footer >
+    <p>© 2025 Sweet Delights Bakery. All rights reserved.</p>
+  </footer>
+
+  </body>
+</html>
