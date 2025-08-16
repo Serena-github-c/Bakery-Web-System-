@@ -1,6 +1,8 @@
 # Sweet Delights Bakery  
 A dynamic website for a small bakery that allows users to browse products, place orders, and leave reviews. Includes an admin panel for managing products and orders.
 
+<img width="639" height="299" alt="image" src="https://github.com/user-attachments/assets/d90c6b08-37cc-4cd0-be81-3e9ce8e55701" />
+
 ## Project Aim:
 To create a full-featured bakery website with a user-friendly interface and backend functionality for order and product management.
     
@@ -18,10 +20,15 @@ To create a full-featured bakery website with a user-friendly interface and back
 
 
 ## Technologies Used  
-- Frontend: HTML, CSS
-- Backend: PHP
-- Database: MySQL
-- Server: XAMPP (Apache + MySQL)
+- Frontend : 
+    ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+    ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+  
+- Backend : 
+    ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+    ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+    ![XAMPP](https://img.shields.io/badge/XAMPP-007396?style=for-the-badge&logo=xampp&logoColor=white)
 
 ## How to Run 
 
